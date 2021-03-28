@@ -1,2 +1,2 @@
 # ColourEncoder
-Program that takes text and encodes it as colours
+:lock: Program that takes text and encodes it as colours
