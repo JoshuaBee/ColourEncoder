@@ -20,10 +20,8 @@
 }
 
 .button {
-	color: #FFF;
-	color: var(--color-primary-text);
-	background-color: #D90429;
-	background-color: var(--color-primary);
+	color: var(--color-primary-text, #FFF);
+	background-color: var(--color-primary, #bb0121);
 	box-sizing: border-box;
 	position: relative;
 	-webkit-user-select: none;
@@ -49,8 +47,7 @@
 }
 
 .button::before {
-	background-color: #FFF;
-	background-color: var(--color-primary-text);
+	background-color: var(--color-primary-text, #FFF);
 	opacity: 0;
 	transition: opacity .2s ease;
 	border-radius: 0.25em;

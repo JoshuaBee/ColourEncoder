@@ -36,13 +36,10 @@
 	line-height: 3.125rem;
 	letter-spacing: 0rem;
 	font-weight: 400;
-	color: #FFF;
-	color: var(--color-background-text);
-	background-color: #2B2D42;
-	background-color: var(--color-background);
+	color: var(--color-background-text, #FFF);
+	background-color: var(--color-background, #0d0000);
 	border: none;
-	border-bottom: #D90429 2px solid;
-	border-bottom: var(--color-primary) 2px solid;
+	border-bottom: 2px solid var(--color-background-text, #FFF);
 	text-align: center;
 	max-width: 80vw;
 }

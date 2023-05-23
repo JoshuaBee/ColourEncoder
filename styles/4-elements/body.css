@@ -4,10 +4,8 @@
 //                                //
 //--------------------------------*/
 body {
-	color: #FFF;
-	color: var(--color-background-text);
-	background-color: #2B2D42;
-	background-color: var(--color-background);
+	color: var(--color-background-text, #FFF);
+	background-color: var(--color-background, #0d0000);
 	display: flex;
     flex-direction: column;
 	min-height: 100vh;

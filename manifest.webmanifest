@@ -1,0 +1,33 @@
+{
+	"background_color": "#bb0121",
+  "description": ":lock: Program that takes text and encodes it as colours",
+	"display": "standalone",
+  "id": "/",
+  "icons": [
+    {
+      "src": "images/logos/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/logos/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "Colour Encoder",
+  "screenshots" : [
+    {
+      "src": "images/screenshots/screenshot1.webp",
+      "sizes": "3360x1672",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Homescreen of Colour Encoder"
+    }
+  ],
+  "short_name": "Colour Encoder",
+  "start_url": "/",
+  "theme_color": "#bb0121"
+}
