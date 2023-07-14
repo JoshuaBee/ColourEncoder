@@ -74,7 +74,19 @@ function generateFromTextBox() {
 	}
 	style += ')';
 
-	document.querySelector('body').style = style;
+	viewTransition(() => {
+		document.querySelector('body').style = style;
+	});
+}
+
+function viewTransition(callback) {
+	if (document.startViewTransition) {
+		document.startViewTransition(() => {
+			callback();
+		});
+	} else {
+		callback();
+	}
 }
 
 function hash(message) {
